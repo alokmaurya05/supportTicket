@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: support-ticket
+  datasource:
+#    url: ${DB_URL:jdbc:mysql://terraform-b255097e124171921c3116940b.crkk6owo2wqs.eu-central-1.rds.amazonaws.com:3306/support_ticket?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=CET}
+#    username: ${DB_USERNAME:admin}
+#    password: ${DB_PASSWORD:admin1234}
+    url: ${DB_URL:jdbc:mysql://localhost:3306/support_ticket?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=CET}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:admin}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc.time_zone: UTC
+  jackson:
+    default-property-inclusion: non_null
+
+app:
+  allowed-origins: "http://localhost:4200,http://supportticketbucket101.s3-website.eu-central-1.amazonaws.com/"
+  jwt:
+    # Supply a unique 32+-character value with JWT_SECRET outside local development.
+    secret: ${JWT_SECRET:local-development-secret-change-this-to-a-secure-32-character-value}
+    expiration-ms: ${JWT_EXPIRATION_MS:3600000}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized
+
+logging:
+  level:
+    com.example.supportticket: INFO

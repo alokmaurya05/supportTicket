@@ -1,0 +1,12 @@
+target/
+.idea/
+*.iml
+.env
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+terraform.tfstate.
+terraform/terraform.tfstate
+frontend/node_modules/
+frontend/dist/
+
