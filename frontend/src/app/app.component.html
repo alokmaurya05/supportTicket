@@ -1,0 +1,154 @@
+<main class="shell">
+    <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">✦</span><span>PulseDesk</span></div>
+        <nav *ngIf="user()">
+            <button class="nav-item active"><span>▦</span> Ticket workspace</button>
+            <button class="nav-item" (click)="showCreate.set(true)"><span>＋</span> Create a ticket</button>
+        </nav>
+        <div class="profile" *ngIf="user() as current">
+            <div class="avatar">{{ current.username.slice(0,1).toUpperCase() }}</div>
+            <div><strong>{{ current.username }}</strong><small>{{ current.role.toLowerCase() }}</small></div>
+            <button class="logout" aria-label="Log out" (click)="logout()">↪</button>
+        </div>
+    </aside>
+
+    <section class="workspace">
+        <header>
+            <div><p class="eyebrow">SUPPORT OPERATIONS</p>
+                <h1>{{ isStaff ? 'Ticket workspace' : 'Need a hand?' }}</h1>
+                <p class="subtitle">{{ isStaff ? 'Stay on top of every customer conversation.' : 'Create a request and
+                    our support team will take it from here.' }}</p></div>
+            <button class="primary" *ngIf="user()" (click)="showCreate.set(true)"><span>＋</span> New ticket</button>
+        </header>
+
+        <div class="notice" *ngIf="notice()"><span>✓</span>{{ notice() }}
+            <button (click)="notice.set(null)">×</button>
+        </div>
+
+        <section class="welcome" *ngIf="!user()">
+            <div class="welcome-copy"><p class="eyebrow">CUSTOMER SUPPORT, SIMPLIFIED</p>
+                <h2>A calmer way to resolve every request.</h2>
+                <p>Sign in to create and track requests, or use a support account to keep the queue moving.</p>
+                <button class="primary large" (click)="showAuth.set(true)">Get started <span>→</span></button>
+            </div>
+            <div class="welcome-art">
+                <div class="orb orb-one"></div>
+                <div class="orb orb-two"></div>
+                <div class="mock-card"><span class="mock-icon">✓</span>
+                    <div><b>Ticket resolved</b><small>Everything is on track</small></div>
+                </div>
+            </div>
+        </section>
+
+        <ng-container *ngIf="user() && isStaff">
+            <section class="stats">
+                <button class="stat-card selected" (click)="filter.set('ALL')"><span>All tickets</span><b>{{
+                    tickets().length }}</b><i>Across your workspace</i></button>
+                <button class="stat-card" (click)="filter.set('OPEN')"><span>Open</span><b>{{ statusCount('OPEN') }}</b><i
+                        class="blue-dot">Needs attention</i></button>
+                <button class="stat-card" (click)="filter.set('IN_PROGRESS')"><span>In progress</span><b>{{
+                    statusCount('IN_PROGRESS') }}</b><i class="orange-dot">Being handled</i></button>
+                <button class="stat-card" (click)="filter.set('RESOLVED')"><span>Resolved</span><b>{{
+                    statusCount('RESOLVED') }}</b><i class="green-dot">Completed</i></button>
+            </section>
+        </ng-container>
+        <section class="tickets-panel" *ngIf="user()">
+                <div class="panel-head">
+                    <div><h2>{{ isStaff ? (filter() === 'ALL' ? 'All tickets' : (filter() | titlecase) + ' tickets') : 'Your tickets' }}</h2>
+                        <p>{{ filteredTickets().length }} ticket{{ filteredTickets().length === 1 ? '' : 's' }} in this
+                            view</p></div>
+                    <div class="panel-actions">
+                        <form class="ticket-lookup" *ngIf="isStaff" [formGroup]="ticketLookupForm" (ngSubmit)="lookupTicket()"><label
+                                for="ticket-id">Find by ID</label><input id="ticket-id" formControlName="id"
+                                                                         type="number" min="1" step="1"
+                                                                         placeholder="Ticket ID">
+                            <button class="lookup-button" type="submit" [disabled]="loading()">Find</button>
+                        </form>
+                        <button class="ghost" type="button" (click)="loadTickets()" [disabled]="loading()">↻ Refresh</button>
+                    </div>
+                </div>
+                <div class="ticket-table" *ngIf="filteredTickets().length; else empty">
+                    <div class="table-row table-label"><span>Ticket</span><span>Priority</span><span>Status</span><span>Last updated</span>
+                    </div>
+                    <button class="table-row ticket-row" *ngFor="let ticket of filteredTickets()"
+                            (click)="select(ticket)"><span
+                            class="ticket-name"><b>#{{ ticket.id }} · {{ ticket.title }}</b><small>{{ ticket.createdBy }}</small></span><span><i
+                            class="pill priority-{{ ticket.priority.toLowerCase() }}">{{ ticket.priority }}</i></span><span><i
+                            class="pill status-{{ ticket.status.toLowerCase() }}">{{ ticket.status.replace('_', ' ') }}</i></span><span
+                            class="updated">{{ ticket.updatedAt | date:'MMM d, y · HH:mm' }} <em>›</em></span></button>
+                </div>
+                <ng-template #empty>
+                    <div class="empty"><span>☼</span>
+                        <h3>{{ isStaff ? 'No tickets here' : 'No tickets yet' }}</h3>
+                        <p>{{ isStaff ? 'New customer requests will appear in this queue.' : 'Tickets you create will appear here.' }}</p></div>
+                </ng-template>
+            </section>
+    </section>
+
+    <div class="backdrop" *ngIf="showAuth() || showCreate() || selected()" (click)="closePanels()"></div>
+    <section class="dialog auth-dialog" *ngIf="showAuth()">
+        <button class="close" *ngIf="user()" (click)="showAuth.set(false)">×</button>
+        <div class="dialog-brand"><span class="brand-mark">✦</span> PulseDesk</div>
+        <h2>{{ authMode() === 'login' ? 'Welcome back' : 'Create your account' }}</h2>
+        <p>{{ authMode() === 'login' ? 'Sign in to manage your support requests.' : 'Get started in less than a minute.'
+            }}</p>
+        <form [formGroup]="authForm" (ngSubmit)="submitAuth()"><label>Username<input formControlName="username"
+                                                                                     placeholder="e.g. alex"
+                                                                                     autocomplete="username"></label><label>Password<input
+                formControlName="password" type="password" placeholder="At least 8 characters"
+                autocomplete="current-password"></label>
+            <button class="primary full" [disabled]="loading()">{{ loading() ? 'Please wait…' : (authMode() === 'login'
+                ? 'Sign in' : 'Create account') }}
+            </button>
+        </form>
+        <button class="text-button" (click)="authMode.set(authMode() === 'login' ? 'register' : 'login')">{{ authMode()
+            === 'login' ? 'New to PulseDesk? Create an account' : 'Already have an account? Sign in' }}
+        </button>
+    </section>
+
+    <section class="drawer" *ngIf="showCreate()">
+        <div class="drawer-head">
+            <div><p class="eyebrow">NEW REQUEST</p>
+                <h2>How can we help?</h2></div>
+            <button class="close" (click)="showCreate.set(false)">×</button>
+        </div>
+        <form [formGroup]="createForm" (ngSubmit)="createTicket()"><label>What’s the issue?<input
+                formControlName="title" placeholder="A short, clear summary"></label><label>Tell us more<textarea
+                formControlName="description" rows="7"
+                placeholder="Include what you expected, what happened, and any useful details."></textarea></label><label>Priority<select
+                formControlName="priority">
+            <option *ngFor="let priority of priorities" [value]="priority">{{ priority }}</option>
+        </select></label>
+            <button class="primary full" [disabled]="loading()">{{ loading() ? 'Creating…' : 'Create ticket' }}</button>
+        </form>
+    </section>
+
+    <section class="drawer" *ngIf="selected() as ticket">
+        <div class="drawer-head">
+            <div><p class="eyebrow">TICKET #{{ ticket.id }}</p>
+                <h2>Ticket details</h2></div>
+            <button class="close" (click)="selected.set(null)">×</button>
+        </div>
+        <form *ngIf="isStaff" [formGroup]="editForm" (ngSubmit)="saveTicket()"><label>Title<input
+                formControlName="title"></label><label>Description<textarea rows="6"
+                                                                            formControlName="description"></textarea></label>
+            <div class="form-grid"><label>Priority<select formControlName="priority">
+                <option *ngFor="let priority of priorities" [value]="priority">{{ priority }}</option>
+            </select></label><label>Status<select formControlName="status">
+                <option *ngFor="let status of statuses" [value]="status">{{ status.replace('_',' ') }}</option>
+            </select></label></div>
+            <div class="meta">Created by <b>{{ ticket.createdBy }}</b> · {{ ticket.createdAt | date:'medium' }}</div>
+            <button class="primary full" [disabled]="loading()">Save changes</button>
+            <button class="danger" type="button" *ngIf="isAdmin" (click)="deleteTicket()">Delete ticket</button>
+        </form>
+        <div *ngIf="!isStaff">
+            <label>Title<input [value]="ticket.title" readonly></label>
+            <label>Description<textarea [value]="ticket.description" rows="6" readonly></textarea></label>
+            <div class="form-grid">
+                <label>Priority<input [value]="ticket.priority" readonly></label>
+                <label>Status<input [value]="ticket.status.replace('_', ' ')" readonly></label>
+            </div>
+            <div class="meta">Created {{ ticket.createdAt | date:'medium' }} · Last updated {{ ticket.updatedAt | date:'medium' }}</div>
+        </div>
+    </section>
+</main>

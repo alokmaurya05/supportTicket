@@ -38,10 +38,11 @@ Open `http://localhost:4200`. The API permits this development origin through it
 
 Public registration always creates a `USER`. The app seeds these local-only privileged accounts on first run; change the passwords directly in `SeedDataConfig` before any shared deployment:
 
-| Username | Role | Password |
-| --- | --- | --- |
-| `support` | `SUPPORT` | `ChangeMeSupport123!` |
-| `admin` | `ADMIN` | `ChangeMeAdmin123!` |
+| Environment | Username | Role | Password |
+| --- | --- | --- | --- |
+| `LOCAL` | `support` | `SUPPORT` | `ChangeMeSupport123!` |
+| `LOCAL` | `admin` | `ADMIN` | `ChangeMeAdmin123!` or `admin1234` |
+| `LOCAL` | `alok` | `USER` | `alok1234` |
 
 Register or log in, then add `Authorization: Bearer <accessToken>` to protected requests.
 
@@ -54,13 +55,14 @@ Content-Type: application/json
 
 ## Ticket endpoints
 
-| Method | Path | Authorization |
-| --- | --- | --- |
-| POST | `/api/tickets` | any authenticated user |
-| GET | `/api/tickets` | SUPPORT or ADMIN |
-| GET | `/api/tickets/{id}` | SUPPORT or ADMIN |
-| PUT | `/api/tickets/{id}` | SUPPORT or ADMIN |
-| DELETE | `/api/tickets/{id}` | ADMIN only |
+| Method | Path                | Authorization            |
+| --- |---------------------|--------------------------|
+| POST | `/api/tickets`      | any authenticated user   |
+| GET | `/api/tickets`      | SUPPORT or ADMIN         |
+| GET | `/api/tickets/mytickets`  | USER or SUPPORT or ADMIN |
+| GET | `/api/tickets/{id}` | SUPPORT or ADMIN         |
+| PUT | `/api/tickets/{id}` | SUPPORT or ADMIN         |
+| DELETE | `/api/tickets/{id}` | ADMIN only               |
 
 Example create payload:
 

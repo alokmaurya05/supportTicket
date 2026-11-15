@@ -1,0 +1,630 @@
+npm warn deprecated @angular-devkit/build-angular@22.2.4: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\fast-uri',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\fast-uri\test'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\fast-uri\\test'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel\\traverse',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\istanbul-lib-instrument\node_modules\@babel\traverse\lib\path'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel\\traverse\\lib\\path'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\hyperdyperid',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\hyperdyperid\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\hyperdyperid\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\js-yaml',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\js-yaml'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\js-yaml'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\js-yaml',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\js-yaml'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\js-yaml'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\json-pointer',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\json-pointer'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\json-pointer'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\base64',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\base64'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\base64'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\cli',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\cli\src\commands'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\cli\\src\\commands'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\compiler-cli'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\compiler-cli'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOTEMPTY
+npm error syscall rmdir
+npm error path C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\webpack\lib\javascript
+npm error errno -4051
+npm error ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\webpack\lib\javascript'
+npm error A complete log of this run can be found in: C:\Users\Alok\AppData\Local\npm-cache\_logs\2026-10-27T18_53_53_872Z-debug-0.log
+ket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\common\locales\en-ID.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\colorjs.io\types'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\data'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\caniuse-lite\README.md'
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\compiler-cli'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\compiler-cli'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\compiler-cli'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\compiler-cli'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\common',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular\common\locales\extra'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular\\common\\locales\\extra'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\istanbul-lib-instrument\node_modules\@babel\compat-data'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel\\compat-data'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jridgewell',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jridgewell'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jridgewell'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel\\core',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\istanbul-lib-instrument\node_modules\@babel\core\node_modules'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel\\core\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\fs-snapshot',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\fs-snapshot\node_modules\@jsonjoy.com\codegen\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\fs-snapshot\\node_modules\\@jsonjoy.com\\codegen\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@babel\\helper-split-export-declaration',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@babel\helper-split-export-declaration\node_modules\@babel\helper-validator-identifier\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@babel\\helper-split-export-declaration\\node_modules\\@babel\\helper-validator-identifier\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@babel',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@babel\helper-split-export-declaration\node_modules\@babel\helper-validator-identifier\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@babel\\helper-split-export-declaration\\node_modules\\@babel\\helper-validator-identifier\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\fs-snapshot\node_modules\@jsonjoy.com\base64\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\fs-snapshot\\node_modules\\@jsonjoy.com\\base64\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\tsyringe',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\tsyringe\node_modules'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\tsyringe\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\util',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\util'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\util'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\json-pack',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@jsonjoy.com\json-pack\node_modules\@jsonjoy.com\buffers\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@jsonjoy.com\\json-pack\\node_modules\\@jsonjoy.com\\buffers\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\istanbul-lib-instrument\node_modules\@babel'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\istanbul-lib-instrument\\node_modules\\@babel'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular-devkit',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\@angular-devkit'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Alok\\workspaceIntelliJ\\supportTicket\\frontend\\node_modules\\@angular-devkit'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOENT
+npm error syscall spawn C:\WINDOWS\system32\cmd.exe
+npm error path C:\Users\Alok\workspaceIntelliJ\supportTicket\frontend\node_modules\esbuild
+npm error errno -4058
+npm error enoent spawn C:\WINDOWS\system32\cmd.exe ENOENT
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\Alok\AppData\Local\npm-cache\_logs\2026-10-27T18_52_33_613Z-debug-0.log
