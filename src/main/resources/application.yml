@@ -2,7 +2,7 @@ spring:
   application:
     name: support-ticket
   datasource:
-#    url: ${DB_URL:jdbc:mysql://terraform-b255097e124171921c3116940b.crkk6owo2wqs.eu-central-1.rds.amazonaws.com:3306/support_ticket?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=CET}
+#    url: ${DB_URL:jdbc:mysql://terraform-c3.crkk6owo2wqs.eu-central-1.rds.amazonaws.com:3306/support_ticket?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=CET}
 #    username: ${DB_USERNAME:admin}
 #    password: ${DB_PASSWORD:admin1234}
     url: ${DB_URL:jdbc:mysql://localhost:3306/support_ticket?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=CET}
