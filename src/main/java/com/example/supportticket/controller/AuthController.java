@@ -9,10 +9,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
-@RestController @RequestMapping("/api/auth")
+@RestController
+@RequestMapping("/api/auth")
 public class AuthController {
-    private final AuthService auth;
     private static final Logger log = LoggerFactory.getLogger(AuthController.class);
+    private final AuthService auth;
+
     public AuthController(AuthService auth) {
         this.auth = auth;
     }

@@ -18,20 +18,23 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/tickets")
 public class TicketController {
+    private static final Logger log = LoggerFactory.getLogger(TicketController.class);
     private final TicketService tickets;
 
     public TicketController(TicketService tickets) {
         this.tickets = tickets;
     }
-    private static final Logger log = LoggerFactory.getLogger(TicketController.class);
+
     @PostMapping
     public ResponseEntity<TicketResponse> create(@Valid @RequestBody CreateTicketRequest request, Authentication auth) {
         return ResponseEntity.status(HttpStatus.CREATED).body(tickets.create(request, auth.getName()));
     }
+
     @GetMapping("/mytickets")
     public List<TicketResponse> listAllTicketsByUser(Authentication auth) {
         return tickets.findAllTicketByCreator(auth.getName());
     }
+
     @GetMapping
     public List<TicketResponse> list() {
         return tickets.findAll();
@@ -47,6 +50,7 @@ public class TicketController {
         log.info("Updating ticket id={} by user={}", id, auth.getName());
         return tickets.update(id, request, auth.getName());
     }
+
     @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id, Authentication auth) {

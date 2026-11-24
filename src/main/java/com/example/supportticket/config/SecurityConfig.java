@@ -18,7 +18,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
 import java.util.List;
+
 import com.example.supportticket.security.CustomUserDetailsService;
 
 @Configuration
@@ -28,6 +30,7 @@ public class SecurityConfig {
     private final CustomUserDetailsService users;
     @Value("#{'${app.allowed-origins}'.split(',')}")
     private List<String> allowedOrigins;
+
     public SecurityConfig(JwtAuthenticationFilter jwtFilter, CustomUserDetailsService users) {
         this.jwtFilter = jwtFilter;
         this.users = users;
@@ -53,19 +56,24 @@ public class SecurityConfig {
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        return http.csrf(c -> c.disable()).cors(c -> { }).sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+        return http.csrf(c -> c.disable()).cors(c -> {
+                }).sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(a -> a.requestMatchers("/api/auth/**", "/actuator/health").permitAll()
                         .requestMatchers(HttpMethod.DELETE, "/api/tickets/**").hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.GET, "/api/tickets/**").hasAnyRole("SUPPORT", "ADMIN","USER")
+                        .requestMatchers(HttpMethod.GET, "/api/tickets/**").hasAnyRole("SUPPORT", "ADMIN", "USER")
                         .requestMatchers(HttpMethod.PUT, "/api/tickets/**").hasAnyRole("SUPPORT", "ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/tickets/**").authenticated().anyRequest().authenticated())
                 .authenticationProvider(authenticationProvider()).addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class).build();
     }
-    @Bean CorsConfigurationSource corsConfigurationSource() {
+
+    @Bean
+    CorsConfigurationSource corsConfigurationSource() {
         var config = new CorsConfiguration();
         config.setAllowedOrigins(allowedOrigins);
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
-        var source = new UrlBasedCorsConfigurationSource(); source.registerCorsConfiguration("/**", config); return source;
+        var source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", config);
+        return source;
     }
 }
